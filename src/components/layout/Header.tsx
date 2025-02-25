@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b">
       <div className="container flex items-center justify-between h-16 px-4">
-        <div className="font-bold text-xl">betasmith</div>
+        <div className="font-bold text-xl">Encik Ahmad</div>
         <nav className="hidden md:flex items-center gap-6">
           <a href="#about" className="text-sm hover:text-primary">
             About

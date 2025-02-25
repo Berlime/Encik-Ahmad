@@ -18,14 +18,14 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="text-4xl md:text-6xl font-bold tracking-tight mb-6"
         >
-          Freelance web developer
+          Professional Handyman Services
           <br />
-          based in New York
+          in Kuala Lumpur
         </motion.h1>
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Senior web developer helping to turn your ideas into exceptional
-          websites. With a blend of design skills and coding expertise, I create
-          unique online experiences that captivate users.
+          Experienced handyman providing professional repair and maintenance
+          services. With over 15 years of expertise, I deliver quality
+          workmanship for all your home improvement needs.
         </p>
         <div className="flex items-center justify-center gap-4">
           <Button size="lg">View My Work</Button>

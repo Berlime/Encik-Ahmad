@@ -17,13 +17,13 @@ export default function About() {
           </ScrollReveal>
           <ScrollReveal>
             <h2 className="text-3xl font-bold mb-6">
-              Hi, John Smith. I'm passionate about crafting exceptional
-              websites.
+              Hi, I'm Encik Ahmad. I'm passionate about delivering exceptional
+              handyman services.
             </h2>
             <p className="text-muted-foreground mb-8">
-              As a seasoned full-stack developer with over 8 years of
-              experience, I specialize in creating modern web applications that
-              combine beautiful design with powerful functionality.
+              As a seasoned handyman with over 15 years of experience, I
+              specialize in home repairs, maintenance, and improvements. I take
+              pride in delivering quality workmanship and reliable service.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <Card className="p-4">

@@ -9,7 +9,7 @@ export default function Footer() {
           <h2 className="text-3xl font-bold mb-4">
             Let's connect and create something awesome together!
           </h2>
-          <p className="text-muted-foreground mb-8">hello@johnsmith.dev</p>
+          <p className="text-muted-foreground mb-8">hello@encik-ahmad.com</p>
           <div className="flex justify-center gap-4 mb-8">
             <Button variant="ghost" size="icon">
               <TwitterIcon className="w-5 h-5" />
@@ -22,7 +22,7 @@ export default function Footer() {
             </Button>
           </div>
           <div className="text-sm text-muted-foreground">
-            © 2024 John Smith. All rights reserved.
+            © 2024 Encik Ahmad. All rights reserved.
           </div>
         </div>
       </div>

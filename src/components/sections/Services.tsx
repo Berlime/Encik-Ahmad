@@ -1,12 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code2Icon, LayoutIcon, ServerIcon } from "lucide-react";
+import { Code2Icon, LayoutIcon, ServerIcon, FenceIcon } from "lucide-react";
 
 const services = [
   {
     title: "Front End",
     description:
       "Creating responsive and interactive user interfaces with modern frameworks and best practices.",
-    icon: LayoutIcon,
+    icon: FenceIcon,
     items: [
       "Modern design with engaging elements",
       "Cross-browser compatibility",
@@ -22,6 +22,72 @@ const services = [
       "API development and integration",
       "Database design and optimization",
       "Server infrastructure setup",
+    ],
+  },
+  {
+    title: "Full Stack",
+    description:
+      "End-to-end development combining front-end and back-end expertise for complete solutions.",
+    icon: Code2Icon,
+    items: [
+      "Full application architecture",
+      "System integration and deployment",
+      "Maintenance and support",
+    ],
+  },
+  {
+    title: "Full Stack",
+    description:
+      "End-to-end development combining front-end and back-end expertise for complete solutions.",
+    icon: Code2Icon,
+    items: [
+      "Full application architecture",
+      "System integration and deployment",
+      "Maintenance and support",
+    ],
+  },
+  {
+    title: "Full Stack",
+    description:
+      "End-to-end development combining front-end and back-end expertise for complete solutions.",
+    icon: Code2Icon,
+    items: [
+      "Full application architecture",
+      "System integration and deployment",
+      "Maintenance and support",
+    ],
+  },
+  {
+    title: "Full Stack",
+    description:
+      "End-to-end development combining front-end and back-end expertise for complete solutions.",
+    icon: Code2Icon,
+    items: [
+      "Full application architecture",
+      "System integration and deployment",
+      "Maintenance and support",
+    ],
+  },
+  {
+    title: "Full Stack",
+    description:
+      "End-to-end development combining front-end and back-end expertise for complete solutions.",
+    icon: Code2Icon,
+    items: [
+      "Full application architecture",
+      "System integration and deployment",
+      "Maintenance and support",
+    ],
+  },
+  {
+    title: "Full Stack",
+    description:
+      "End-to-end development combining front-end and back-end expertise for complete solutions.",
+    icon: Code2Icon,
+    items: [
+      "Full application architecture",
+      "System integration and deployment",
+      "Maintenance and support",
     ],
   },
   {
