@@ -9,8 +9,8 @@ export default function About() {
           <ScrollReveal>
             <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
               <img
-                src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?q=80&w=1000"
-                alt="John Smith"
+                src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=2069&auto=format&fit=crop"
+                alt="Encik Ahmad at work"
                 className="object-cover w-full h-full"
               />
             </div>

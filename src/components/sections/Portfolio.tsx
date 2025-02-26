@@ -3,28 +3,28 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
   {
-    title: "Revrise Website Redesign",
-    category: "Web Design",
+    title: "Kitchen Renovation",
+    category: "Home Improvement",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "Brittany & Co Front Store",
-    category: "E-commerce",
+    title: "Bathroom Remodeling",
+    category: "Renovation",
     image:
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1000",
+      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "NeuroApp Landing Page",
-    category: "UI/UX Design",
+    title: "Deck Construction",
+    category: "Carpentry",
     image:
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1000",
+      "https://images.unsplash.com/photo-1595828204607-9d67535c2e13?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "NY Hospital CRM",
-    category: "Web Application",
+    title: "Electrical Installation",
+    category: "Electrical",
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000",
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop",
   },
 ];
 

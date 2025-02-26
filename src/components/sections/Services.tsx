@@ -1,104 +1,88 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code2Icon, LayoutIcon, ServerIcon, FenceIcon } from "lucide-react";
+import { WrenchIcon, HammerIcon, PaintbrushIcon } from "lucide-react";
 
 const services = [
   {
-    title: "Front End",
+    title: "General Repairs",
     description:
-      "Creating responsive and interactive user interfaces with modern frameworks and best practices.",
-    icon: FenceIcon,
+      "Comprehensive repair services for various household issues and maintenance needs.",
+    icon: WrenchIcon,
     items: [
-      "Modern design with engaging elements",
-      "Cross-browser compatibility",
-      "Performance optimization",
+      "Furniture repair and assembly",
+      "Door and window repairs",
+      "General maintenance",
     ],
   },
   {
-    title: "Back End",
+    title: "Carpentry",
     description:
-      "Building robust server-side applications with secure and scalable architecture.",
-    icon: ServerIcon,
+      "Professional woodworking services for both repairs and custom installations.",
+    icon: HammerIcon,
     items: [
-      "API development and integration",
-      "Database design and optimization",
-      "Server infrastructure setup",
+      "Custom shelving and cabinets",
+      "Wood repairs and restoration",
+      "Door installation and repair",
     ],
   },
   {
-    title: "Full Stack",
+    title: "Painting",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
+      "Interior and exterior painting services with attention to detail and quality finishes.",
+    icon: PaintbrushIcon,
     items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
+      "Interior wall painting",
+      "Exterior house painting",
+      "Cabinet refinishing",
     ],
   },
   {
-    title: "Full Stack",
+    title: "Electrical Work",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
+      "Safe and reliable electrical repairs and installations for your home.",
+    icon: WrenchIcon,
     items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
+      "Light fixture installation",
+      "Outlet and switch repair",
+      "Ceiling fan installation",
     ],
   },
   {
-    title: "Full Stack",
+    title: "Plumbing",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
-    items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
-    ],
+      "Expert plumbing services for repairs, installations, and maintenance.",
+    icon: WrenchIcon,
+    items: ["Leak repairs", "Faucet installation", "Drain cleaning"],
   },
   {
-    title: "Full Stack",
+    title: "Flooring",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
-    items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
-    ],
+      "Professional flooring installation and repair services for all types of floors.",
+    icon: HammerIcon,
+    items: ["Tile installation", "Laminate flooring", "Floor repairs"],
   },
   {
-    title: "Full Stack",
+    title: "Home Renovation",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
-    items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
-    ],
+      "Complete home renovation services from small updates to major remodels.",
+    icon: HammerIcon,
+    items: ["Kitchen remodeling", "Bathroom updates", "Room additions"],
   },
   {
-    title: "Full Stack",
+    title: "Mounting Services",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
-    items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
-    ],
+      "Professional mounting services for TVs, shelves, and other household items.",
+    icon: WrenchIcon,
+    items: ["TV mounting", "Shelf installation", "Picture hanging"],
   },
   {
-    title: "Full Stack",
+    title: "Outdoor Maintenance",
     description:
-      "End-to-end development combining front-end and back-end expertise for complete solutions.",
-    icon: Code2Icon,
+      "Comprehensive outdoor maintenance and repair services for your home.",
+    icon: PaintbrushIcon,
     items: [
-      "Full application architecture",
-      "System integration and deployment",
-      "Maintenance and support",
+      "Deck repair and maintenance",
+      "Fence installation",
+      "Garden structure assembly",
     ],
   },
 ];
