@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
+    >
       <img
         src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2070&auto=format&fit=crop"
         alt="Professional handyman at work"
