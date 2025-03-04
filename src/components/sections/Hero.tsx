@@ -11,10 +11,10 @@ export default function Hero() {
       <img
         src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2070&auto=format&fit=crop"
         alt="Professional handyman at work"
-        className="absolute inset-0 w-full h-full object-cover brightness-[0.5] z-0"
+        className="absolute inset-0 w-full h-full object-cover brightness-[0.7] z-0"
       />
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/60 to-white dark:from-black/40 dark:via-black/60 dark:to-black backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-white/30 to-white/40 dark:from-black/20 dark:via-black/30 dark:to-black/40 backdrop-blur-[1px]" />
         <div
           className="absolute inset-0 opacity-[0.015] dark:opacity-[0.03]"
           style={{
@@ -27,13 +27,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl md:text-6xl font-bold tracking-tight mb-6"
+          className="text-5xl md:text-7xl font-bold tracking-tight mb-8 font-inter"
         >
           Professional Handyman Services
           <br />
           in Kuala Lumpur
         </motion.h1>
-        <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl text-foreground font-medium mb-10 max-w-3xl mx-auto bg-background/60 dark:bg-background/60 backdrop-blur-sm py-3 px-4 rounded-md">
           Experienced handyman providing professional repair and maintenance
           services. With over 15 years of expertise, I deliver quality
           workmanship for all your home improvement needs.

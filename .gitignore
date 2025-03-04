@@ -29,3 +29,6 @@ dist-ssr
 **/tempobook/storyboards/
 
 core
+
+# Keep the images folder but ignore its contents
+!src/assets/images/.gitkeep

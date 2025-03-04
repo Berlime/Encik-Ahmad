@@ -1,7 +1,7 @@
 import Header from "./layout/Header";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import Services from "./sections/Services";
+import ServicesCarousel from "./sections/ServicesCarousel";
 import Portfolio from "./sections/Portfolio";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
@@ -13,7 +13,7 @@ function Home() {
       <Header />
       <Hero />
       <About />
-      <Services />
+      <ServicesCarousel />
       <Portfolio />
       <Testimonials />
       <Contact />
